@@ -6,8 +6,13 @@ This is a starter template to help you quickly bootstrap React packages with a m
 [![npm latest package](https://img.shields.io/npm/v/@snowdrive/react-package-starter/latest?color=blue)](https://www.npmjs.com/package/@snowdrive/react-package-starter)
 [![npm downloads](https://img.shields.io/npm/dm/@snowdrive/react-package-starter)](https://www.npmjs.com/package/@snowdrive/react-package-starter)
 
+## Translations
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/luc-mo/react-package-starter/blob/HEAD/README.md)
+[![es](https://img.shields.io/badge/lang-es-blue.svg)](https://github.com/luc-mo/react-package-starter/blob/HEAD/docs/README.es.md)
+
 ## Table of Contents
 - [React Package Starter - A starter template for creating React packages with Vite, TypeScript, and TailwindCSS](#react-package-starter---a-starter-template-for-creating-react-packages-with-vite-typescript-and-tailwindcss)
+  - [Translations](#translations)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)

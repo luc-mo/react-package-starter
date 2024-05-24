@@ -7,8 +7,8 @@ Esta es una plantilla de inicio para ayudarte a arrancar rápidamente paquetes d
 [![npm downloads](https://img.shields.io/npm/dm/@snowdrive/react-package-starter)](https://www.npmjs.com/package/@snowdrive/react-package-starter)
 
 ## Traducciones
-[![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/luc-mo/react-package-starter/blob/HEAD/README.md)
-[![es](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/luc-mo/react-package-starter/blob/HEAD/docs/README.es.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/luc-mo/react-package-starter/blob/HEAD/README.md)
+[![es](https://img.shields.io/badge/lang-es-blue.svg)](https://github.com/luc-mo/react-package-starter/blob/HEAD/docs/README.es.md)
 
 ## Tabla de Contenidos
 - [React Package Starter - Una plantilla de inicio para crear paquetes React con Vite, TypeScript y TailwindCSS](#react-package-starter---una-plantilla-de-inicio-para-crear-paquetes-react-con-vite-typescript-y-tailwindcss)
