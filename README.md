@@ -2,6 +2,28 @@
 
 This is a starter template to help you quickly bootstrap React packages with a modern development environment. It uses Vite for local development environment, TypeScript for type safety and TailwindCSS for styling. Additionally, it uses tsup for an efficient build process.
 
+[![license](https://img.shields.io/github/license/luc-mo/firebase-handler?color=blue)](https://github.com/luc-mo/react-package-starter/blob/HEAD/LICENSE)
+[![npm latest package](https://img.shields.io/npm/v/@snowdrive/react-package-starter/latest?color=blue)](https://www.npmjs.com/package/@snowdrive/react-package-starter)
+[![npm downloads](https://img.shields.io/npm/dm/@snowdrive/react-package-starter)](https://www.npmjs.com/package/@snowdrive/react-package-starter)
+
+## Table of Contents
+- [React Package Starter - A starter template for creating React packages with Vite, TypeScript, and TailwindCSS](#react-package-starter---a-starter-template-for-creating-react-packages-with-vite-typescript-and-tailwindcss)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Building the package](#building-the-package)
+  - [Publishing the package](#publishing-the-package)
+  - [Package usage](#package-usage)
+    - [Packages used](#packages-used)
+      - [Dependencies](#dependencies)
+      - [Dev dependencies](#dev-dependencies)
+    - [Tailwind configuration](#tailwind-configuration)
+  - [Additional configuration](#additional-configuration)
+    - [package.json](#packagejson)
+      - [Package metadata](#package-metadata)
+    - [tsup](#tsup)
+      - [Minimal configuration](#minimal-configuration)
+
 ## Installation
 
 1. Clone the repository
