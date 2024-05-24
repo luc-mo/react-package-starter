@@ -1,7 +1,7 @@
 {
   "name": "@snowdrive/react-package-starter",
   "description": "A starter template for creating React packages with Vite, TypeScript and TailwindCSS",
-  "version": "0.0.0-beta.0",
+  "version": "0.0.0-beta.1",
   "author": "Luciano Morales",
   "license": "GPL-3.0-or-later",
   "keywords": ["react", "vite", "typescript", "tailwindcss", "package", "boilerplate"],
@@ -16,7 +16,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "tag": "beta"
+    "tag": "latest"
   },
   "repository": {
     "type": "git",
