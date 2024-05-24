@@ -1,0 +1,54 @@
+{
+  "name": "@snowdrive/react-package-starter",
+  "description": "A starter template for creating React packages with Vite, TypeScript and TailwindCSS",
+  "version": "0.0.0-beta.0",
+  "author": "Luciano Morales",
+  "license": "GPL-3.0-or-later",
+  "keywords": ["react", "vite", "typescript", "tailwindcss", "package", "boilerplate"],
+  "type": "module",
+  "files": ["dist"],
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "publishConfig": {
+    "access": "public",
+    "tag": "beta"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luc-mo/react-package-starter"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsup"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.66",
+    "@types/react-dom": "18.2.22",
+    "@vitejs/plugin-react": "4.2.1",
+    "autoprefixer": "10.4.19",
+    "postcss": "8.4.38",
+    "tailwindcss": "3.4.3",
+    "tsup": "8.0.2",
+    "typescript": "5.2.2",
+    "vite": "5.2.0"
+  },
+  "peerDependencies": {
+    "react": "^18 || ^17",
+    "react-dom": "^18 || ^17",
+    "tailwindcss": "^3",
+    "autoprefixer": "^10",
+    "postcss": "^8"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
