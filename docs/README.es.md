@@ -64,6 +64,12 @@ npm publish
 
 Para usar tu paquete, necesitarás instalarlo en el proyecto donde deseas usarlo, como lo harías con cualquier otro paquete:
 
+```bash
+npm install your-package-name
+yarn add your-package-name
+pnpm add your-package-name
+```
+
 ### Paquetes utilizados
 
 Este paquete utiliza React y Tailwind como dependencias peer, por lo que necesitarás tener los siguientes paquetes instalados en tu proyecto:
@@ -81,6 +87,18 @@ Este paquete utiliza React y Tailwind como dependencias peer, por lo que necesit
 
 Si eliges usar Tailwind en este paquete, para utilizarlo, necesitarás agregarlo al archivo de configuración de Tailwind del proyecto donde lo usarás.
 
+```js
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./node_modules/@snowdrive/react-package-starter/**/*.{js,ts,jsx,tsx}"
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
 
 ## Configuración adicional
 
